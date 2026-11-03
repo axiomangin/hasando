@@ -1,0 +1,28 @@
+# Lokalny folder Terraforma (binarki providera, zapamiętany backend)
+**/.terraform/*
+
+# Stan Terraforma: zawiera dane z konta zwykłym tekstem
+*.tfstate
+*.tfstate.*
+
+# Logi po awarii Terraforma
+crash.log
+crash.*.log
+
+# Pliki z wartościami zmiennych (mogą zawierać hasła i klucze)
+*.tfvars
+*.tfvars.json
+
+# Pliki nadpisujące kod lokalnie
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ustawienia CLI Terraforma
+.terraformrc
+terraform.rc
+
+# Nasze dodatki: zapisane plany i ustawienia backendu z numerem konta
+*.tfplan
+backend.hcl
