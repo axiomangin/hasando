@@ -1,0 +1,4 @@
+# Wzór pliku backend.hcl (bez prawdziwych wartości).
+# Skopiuj ten plik jako backend.hcl i wpisz nazwę swojego bucketa na stan.
+# Prawdziwy backend.hcl jest w .gitignore i nie trafia do repozytorium.
+bucket = "TWOJA-NAZWA-BUCKETA-NA-STAN"
